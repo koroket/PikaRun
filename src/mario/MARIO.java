@@ -678,10 +678,10 @@ if (keyCode == e.VK_D) {
         }}
         
         g.setColor(Color.BLACK);
-        g.drawString(count + " " + jumpvelocity, 200, 200);
-        g.drawString(overlap + "", 400, 400);
+       // g.drawString(count + " " + jumpvelocity, 200, 200);
+       // g.drawString(overlap + "", 400, 400);
      
-         g.drawString("r-s is"+ (r-s) + "t+80-f is" + (t+80-f) + "random shit" + (int)(Math.random() * 600), 400, 500);
+         //g.drawString("r-s is"+ (r-s) + "t+80-f is" + (t+80-f) + "random shit" + (int)(Math.random() * 600), 400, 500);
        
 if(time>1){g.drawString(message1, r+5, t+60);}
  g.setColor(Color.RED);
